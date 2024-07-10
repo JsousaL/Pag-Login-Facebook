@@ -1,0 +1,10 @@
+
+
+
+header, main{
+    border: 1px solid black;
+}
+
+form{
+    max-width: 500px;
+}

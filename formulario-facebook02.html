@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro Facebook</title>
+    <style>
+        
+        body{
+            margin: auto;
+        }
+
+        h1{margin-left: 10px; margin-bottom: 0px;}
+        p{margin-left: 10px; margin-top: 4px;}
+        div#principal{
+        background: white;
+    
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        }
+        .nome{
+            background-color: #F5F6F7;
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px;
+            margin: 10px 4px 10px 10px;
+            border-color: lightgrey;
+            
+        }
+        .sobrenome{
+            background-color: #F5F6F7;
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px;
+            margin: 10px 10px 10px 4px;
+            border-color: lightgrey;
+        }
+        div{display: inline-block;}
+        .email {
+            background-color: #F5F6F7;
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px 209px 10px 10px;
+            margin: 1px 10px 10px 10px;
+            border-color: lightgrey;
+        }
+        .novasenha{
+            background-color: #F5F6F7;
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px 209px 10px 10px;
+            margin: 1px 10px 10px 10px;
+            border-color: lightgrey;
+        }
+        .dia{
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px 10px 10px 60px;
+            margin: 0px 4px 10px 10px;
+            border-color: lightgrey;
+        }
+        .mes{
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px;
+            margin: 0px 4px 10px 10px;
+            border-color: lightgrey;
+        }
+        .ano{
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px 10px 10px 60px;
+            margin: 0px 4px 10px 10px;
+            border-color: lightgrey;
+        }
+        .masculino{
+            
+            border: 1px solid rgba(0, 0, 0, 0.178);
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px 10px 10px 10px;
+            margin: 0px 10px 10px 4px;
+            
+        }
+        .feminino{
+            border: 1px solid rgba(0, 0, 0, 0.178);
+            border-radius: 5px;
+            padding: 10px;
+            margin: 0px 10px 10px 0px;
+            
+        }
+        .personalizado{
+            border: 1px solid rgba(0, 0, 0, 0.178);
+            border-radius: 5px 5px 5px 5px;
+            padding: 10px 10px 10px 10px;
+            margin: 0px 10px 10px 0px;
+            
+        }
+        .botao {
+            margin: 10px 10px 10px 140px;
+        }
+        button{
+            background-color: #00A400;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px 5px 5px 5px;
+            border-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <h1>Cadastre-se</h1>
+        <p>É rápido e fácil.</p>
+        <hr>
+        <div>
+            <input class="nome" type="text" placeholder="Nome">
+        </div>
+        <div>
+            <input class="sobrenome" type="text" placeholder="Sobrenome">
+        </div>
+        <br>
+        <div>
+            <input class="email" type="text" placeholder="Celular ou email">
+        </div>
+        <br>
+        <div>
+            <input class="novasenha" type="password" placeholder="Nova senha">
+        </div>
+        <p>Data de Nascimento</p>
+        <select class="dia">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+        <select class="mes">
+            <option>Janeiro</option>
+            <option>Fevereiro</option>
+            <option>Março</option>
+            <option>Abril</option>
+            <option>Maio</option>
+            <option>Junho</option>
+            <option>Julho</option>
+            <option>Agosto</option>
+            <option>Setembro</option>
+            <option>Outubro</option>
+            <option>Novembro</option>
+            <option>Dezembro</option>
+        </select>
+        <select class="ano">
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+            <option>1999</option>
+            <option>1998</option>
+            <option>1997</option>
+            <option>1996</option>
+            <option>1995</option>
+            <option>1994</option>
+        </select>
+        <br>
+        <p>Gênero</p>
+        <div class="masculino">
+            <label for="imasc" name="genero">
+                Masculino
+            </label>
+            <input type="radio" name="genero" id="imasc">
+        </div>
+        <div class="feminino">
+            <label for="ifem"  name="genero" >
+                Feminino
+            </label>
+            <input type="radio" name="genero" id="ifem">
+        </div>
+        <div class="personalizado">
+            <label for="ipers"  name="genero" >
+                Personalizado
+            </label>
+            <input type="radio" name="genero" id="ipers">
+        </div>
+        <p>As pessoas que usam nosso serviço podem ter enviado<br/> suas informações de contato para o Facebook.<a href="">Saiba mais.</a> </p></p>
+        <p>Ao clicar em Cadastre-se, você concorda com nossos<br/> <a href="">Termos</a>, <a href="">Política de Privacidade</a> e <a href="">Política de Cookies</a>.<br/> Você poderá receber notificações por SMS e cancelar<br/> isso quando quiser.</p>
+        <div class="botao">
+            <a href=""><button>Cadastre-se</button></a>
+        </div>
+    </div>
+</body>
+</html>
